@@ -5,7 +5,9 @@ This Can be Used in a Situation Like Where You Want to Store A Copy of A File Th
 And at the Same Time Give That File an Uniqe Random Name
 
 I Created This to Get A User Selected File Using JFileChooser And Store A Copy Of That File in My Application Installation Directory 
-So Even If User Deleted The Original File It Will Not Be A Problem For My Application Since It Has A Copy of That File Already Stored. 
+So Even If User Deleted The Original File It Will Not Be A Problem For My Application Since It Has A Copy of That File Already Stored.
+
+<html><h4>This Method Also Returns The File Path Of The Newly Copied File As A String.</h4></html>
 
 Just copy and paste the method into your java class file where you need to use this functionality 
 and call the method by inputting following parameters.
