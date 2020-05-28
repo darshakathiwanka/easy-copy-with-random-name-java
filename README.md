@@ -1,5 +1,5 @@
 # easy-copy-with-random-name-java
-<html><h3>A Simple Java Method to Generate a Copy of a Certain File with Random File Name</h3><html> 
+<html><h3>A Simple Java Method to Generate a Copy of a Certain File with a Random File Name</h3><html> 
 
 This Can be Used in a Situation Like Where You Want to Store A Copy of A File That is in Your Computer in to Your Project Folder
 And at the Same Time Give That File an Uniqe Random Name
