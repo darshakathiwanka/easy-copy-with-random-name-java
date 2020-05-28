@@ -1,0 +1,11 @@
+public String storeFileWithRandomName(String source_path,String destination_path,String randomprefix,String extention) throws Exception {
+
+        File source = new File(source_path);
+        File destination = new File(destination_path);
+        File destination_file = File.createTempFile(randomprefix,extention,destination);
+        Files.copy(source.toPath(), destination_file.toPath(), StandardCopyOption.REPLACE_EXISTING);
+        String file_path = destination_file.getPath();
+        String path = file_path.replaceAll("\\\\", "\\\\\\\\");
+        return path;
+
+    }
